@@ -32,7 +32,7 @@ function BasicUsage() {
           position: "fixed",
           top: "400px",
           zIndex: 1,
-          marginLeft: "600px",
+          marginLeft: "690px",
           padding: "17px 0px",
           backgroundColor: "#fff",
         }}
