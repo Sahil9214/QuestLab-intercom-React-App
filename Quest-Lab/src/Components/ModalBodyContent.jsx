@@ -31,7 +31,7 @@ const ModalBodyContent = () => {
     setLoading(true);
     try {
       let res = await axios.get(`https://aware-lion-miniskirt.cyclic.app`);
-
+      console.log("res",res.data)
       console.log("datd", res.data);
       setText(res.data);
 
