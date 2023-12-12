@@ -10,7 +10,8 @@
     color: #3f4c5a;
     font-family: "TT Norms Pro",Helvetica,Arial,sans-serif;
     letter-spacing: .4px;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
+    
 }
 .flex_name{
     width: 40%;

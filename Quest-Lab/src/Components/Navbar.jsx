@@ -169,7 +169,7 @@ export default function Navbar() {
               </Button>
               <Button
                 style={{
-                  height: "3rem",
+                  height: "2.4rem",
                   padding: "0 1.5rem",
                   borderRadius: "2rem",
                   backgroundColor: "transparent",

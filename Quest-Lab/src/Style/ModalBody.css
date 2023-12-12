@@ -1,0 +1,52 @@
+.modalMain {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 100px;
+  height: 40px;
+  background-color: linear-gradient(
+    117.67deg,
+    rgb(27, 59, 102),
+    rgb(0, 87, 255),
+    rgb(202, 244, 247)
+  );
+  overflow-y: scroll;
+}
+.mainBox {
+  background-color: linear-gradient(
+    117.67deg,
+    rgb(27, 59, 102),
+    rgb(0, 87, 255),
+    rgb(202, 244, 247)
+  );
+ 
+}
+.h1_main_modal_tag {
+  color: rgba(0, 0, 0, 0.416);
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 30px;
+  opacity: 1;
+
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 100%;
+  font-style: normal;
+  letter-spacing: normal;
+  font-stretch: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-align-last: initial;
+  text-decoration: none;
+  text-emphasis: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  margin: 0px;
+  padding: 0px;
+  line-height: inherit;
+  font-size: 32px;
+  font-weight: 700;
+}
