@@ -56,50 +56,69 @@ const MainPart5 = () => {
         <br />
         <br />
         <Image width={"90%"} margin={"auto"} src={grid5} />
-        <br/>
-        <br/>
+        <br />
+        <br />
         <Flex width={"80%"} justifyContent={"space-around"} margin={"auto"}>
-        <Box display={"flex"} justifyContent={"space-around"}>
-          <Image
-            src={
-              "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMi4zMTU0IiByPSIxMSIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTggMTIuODg2OUwxMC4yODU3IDE2LjMxNTRMMTYuMzgxIDguMzE1NDMiIHN0cm9rZT0iIzA0MTUyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
-            }
-          />
-          <p
-            style={{
-              lineHeight: "1.5",
-              letterSpacing: ".5px",
-            }}
+          <Box display={"flex"} justifyContent={"space-around"}>
+            <Image
+              src={
+                "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMi4zMTU0IiByPSIxMSIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTggMTIuODg2OUwxMC4yODU3IDE2LjMxNTRMMTYuMzgxIDguMzE1NDMiIHN0cm9rZT0iIzA0MTUyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
+              }
+            />
+            <p
+              style={{
+                lineHeight: "1.5",
+                letterSpacing: ".5px",
+              }}
+            >
+              Maximize team performance with actionable insights
+            </p>
+          </Box>
+          <Box display={"flex"} justifyContent={"space-around"}>
+            {" "}
+            <Image src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMi4zMTU0IiByPSIxMSIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTggMTIuODg2OUwxMC4yODU3IDE2LjMxNTRMMTYuMzgxIDguMzE1NDMiIHN0cm9rZT0iIzA0MTUyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" />
+            <p
+              style={{
+                lineHeight: "1.5",
+                letterSpacing: ".5px",
+              }}
+            >
+              Maximize team performance with actionable insights
+            </p>
+          </Box>
+          <Box display={"flex"} justifyContent={"space-around"}>
+            <Image src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMi4zMTU0IiByPSIxMSIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTggMTIuODg2OUwxMC4yODU3IDE2LjMxNTRMMTYuMzgxIDguMzE1NDMiIHN0cm9rZT0iIzA0MTUyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" />
+            <p
+              style={{
+                lineHeight: "1.5",
+                letterSpacing: ".5px",
+              }}
+            >
+              Maximize team performance with actionable insights
+            </p>
+          </Box>
+        </Flex>
+        <Box width={'80%'} margin={'auto'}>
+          <section
+            data-testid="shape-section"
+            class="jsx-1516004678 shape-section shape-section--upward shape-section--inline-with-content mvp-background-color-slate"
           >
-            Maximize team performance with actionable insights
-          </p>
+            <svg
+              class="shape-section__shape"
+              width="1440"
+              height="84"
+              viewBox="0 0 1440 84"
+              fill="none"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0 83C454.33-24.774 928.696-27.898 1384.99 71.96L1440 83v2H0Z"
+                fill="#ffffff"
+              ></path>
+            </svg>
+          </section>
         </Box>
-        <Box display={"flex"} justifyContent={"space-around"}>
-          {" "}
-          <Image src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMi4zMTU0IiByPSIxMSIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTggMTIuODg2OUwxMC4yODU3IDE2LjMxNTRMMTYuMzgxIDguMzE1NDMiIHN0cm9rZT0iIzA0MTUyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" />
-          <p
-            style={{
-              lineHeight: "1.5",
-              letterSpacing: ".5px",
-            }}
-          >
-            Maximize team performance with actionable insights
-          </p>
-        </Box>
-        <Box display={"flex"} justifyContent={"space-around"}>
-          <Image src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMi4zMTU0IiByPSIxMSIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTggMTIuODg2OUwxMC4yODU3IDE2LjMxNTRMMTYuMzgxIDguMzE1NDMiIHN0cm9rZT0iIzA0MTUyNyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" />
-          <p
-            style={{
-              lineHeight: "1.5",
-              letterSpacing: ".5px",
-            }}
-          >
-            Maximize team performance with actionable insights
-          </p>
-        </Box>
-      </Flex>
       </Box>
-     
     </div>
   );
 };

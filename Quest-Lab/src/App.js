@@ -8,6 +8,7 @@ import MainPart3 from "./Components/MainPart3";
 import MainPart2 from './Components/MainPart2'
 import MainPart4 from "./Components/MainPart4";
 import MainPart5 from "./Components/MainPart5";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <MainPart3/>
       <MainPart4/>
       <MainPart5/>
+      <Footer/>
     </div>
   );
 }
