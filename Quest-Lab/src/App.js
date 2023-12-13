@@ -26,7 +26,7 @@ function BasicUsage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Button
+      <Button className='basicUsageValue'
         style={{
           float: "right",
           position: "fixed",
