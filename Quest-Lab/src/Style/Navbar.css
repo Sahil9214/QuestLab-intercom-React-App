@@ -16,5 +16,9 @@
   }
   .navbar_box_low{
     justify-content: space-between;
+    margin-left: 60px;
+  }
+  .btn_navbar_btn{
+    display: none;
   }
 }

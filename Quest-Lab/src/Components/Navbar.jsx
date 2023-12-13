@@ -79,7 +79,7 @@ export default function Navbar() {
                 aria-label={"Toggle Navigation"}
               />
             </Flex>
-            <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
+            <Flex flex={{ base: 1 }} >
               <Text
                 textAlign={useBreakpointValue({ base: "center", md: "left" })}
                 fontFamily={"heading"}
@@ -210,7 +210,7 @@ const DesktopNav = () => {
                     gap: "0.25rem",
                     padding: "0.5rem",
                   }}
-                  fontSize={"sm"}
+                  fontSize={"xl"}
                   fontWeight={600}
                   color={"#fff"}
                   _hover={{

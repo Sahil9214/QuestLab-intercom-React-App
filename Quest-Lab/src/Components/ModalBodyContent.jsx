@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text,Divider } from "@chakra-ui/react";
 import "../Style/ModalBody.css";
 import right from "../Images/right-arrow.png";
 import sidebar from "../Images/sidebar.png";
@@ -31,7 +31,7 @@ const ModalBodyContent = () => {
     setLoading(true);
     try {
       let res = await axios.get(`https://aware-lion-miniskirt.cyclic.app`);
-      console.log("res",res.data)
+      console.log("res", res.data);
       console.log("datd", res.data);
       setText(res.data);
 
@@ -48,6 +48,7 @@ const ModalBodyContent = () => {
     } catch (err) {
       console.log("err", err);
     }
+    setVal("");
   };
 
   useEffect(() => {
@@ -126,6 +127,7 @@ const ModalBodyContent = () => {
       <Flex>
         <Input
           type="text"
+          value={val}
           placeholder="Type Message here"
           onChange={(e) => setVal(e.target.value)}
         />
@@ -138,13 +140,16 @@ const ModalBodyContent = () => {
       </Flex>
       <br />
       <br />
-      <Box
+      <Divider/>
+      <Box className='message_box_input_low'
         style={{
           padding: "15px 0px",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+          
           position: "sticky",
           bottom: "0px",
-          zIndex: 1,
+          zIndex:1
+          
+          
         }}
       >
         <Flex

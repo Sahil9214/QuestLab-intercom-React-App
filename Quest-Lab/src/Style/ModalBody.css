@@ -13,7 +13,7 @@
     rgb(0, 87, 255),
     rgb(202, 244, 247)
   );
-  overflow-y: scroll;
+  
 }
 .mainBox {
   background-color: linear-gradient(
@@ -22,6 +22,7 @@
     rgb(0, 87, 255),
     rgb(202, 244, 247)
   );
+  overflow-y: scroll;
  
 }
 .h1_main_modal_tag {
@@ -49,4 +50,12 @@
   line-height: inherit;
   font-size: 32px;
   font-weight: 700;
+}
+.message_box_input_low{
+  background-color: linear-gradient(
+    117.67deg,
+    rgb(27, 59, 102),
+    rgb(0, 87, 255),
+    rgb(202, 244, 247)
+  );
 }
