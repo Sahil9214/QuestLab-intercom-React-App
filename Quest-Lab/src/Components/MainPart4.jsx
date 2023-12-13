@@ -10,8 +10,8 @@ const MainPart4 = () => {
   return (
     <div>
       <Box className="main">
-        <div class="jsx-3565395671 heading-base__inner">
-          <h2 class="jsx-3565395671 heading-base__title">
+        <div>
+          <h2>
             <span className="p_tag">
               Give customers the support <br />
               they need, before they need it
@@ -19,17 +19,17 @@ const MainPart4 = () => {
           </h2>
           <br />
           <br />
-          <div class="jsx-3565395671 heading-base__subhead">
-            <span class="jsx-4250707789 text text--size-subhead-lg text--brand-mvp">
-              <div class="rich-text" data-testid="rich-text">
+          <div>
+            <span>
+              <div className="rich-text">
                 <p
                   className="p_tag_main"
-                  style={{
-                    fontSize: "23px",
-                    fontWeight: "700",
-                    lineHeight: "1.65",
-                    display: "block",
-                  }}
+                  // style={{
+                  //   fontSize: "23px",
+                  //   fontWeight: "700",
+                  //   lineHeight: "1.65",
+                  //   display: "block",
+                  // }}
                 >
                   Onboard, educate, and notify your customers with in-context,
                   automated <br /> messages—cutting support volume and keeping
@@ -71,7 +71,7 @@ const MainPart4 = () => {
       </Box>{" "}
       <br />
       <br />
-      <Box width={"85%"} margin={"auto"} >
+      <Box width={"85%"} margin={"auto"}>
         <Box className="flex_box">
           <Image src={part1} />
           <Image src={part2} />
