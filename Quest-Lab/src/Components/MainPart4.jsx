@@ -1,8 +1,11 @@
 import React from "react";
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image, Text, Flex } from "@chakra-ui/react";
 import "../Style/MainPart4.css";
 import rightArrow from "../Images/right-arrow.png";
 import grid3 from "../Images/grid3.png";
+import part1 from "../Images/part1.png";
+import part2 from "../Images/part2.png";
+import part3 from "../Images/part3.png";
 const MainPart4 = () => {
   return (
     <div>
@@ -68,11 +71,14 @@ const MainPart4 = () => {
       </Box>{" "}
       <br />
       <br />
-      <Box width={"95%"} margin={"auto"}>
-        <Image src={grid3} />
+      <Box width={"85%"} margin={"auto"} >
+        <Box className="flex_box">
+          <Image src={part1} />
+          <Image src={part2} />
+          <Image src={part3} />
+        </Box>
       </Box>
       <br />
-    
     </div>
   );
 };

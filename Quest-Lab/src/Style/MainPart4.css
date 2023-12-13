@@ -21,13 +21,29 @@
     rgba(255, 241, 217, 0) 100%
   );
 }
-.p_tag_main{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color:#3f4c5a;
-    font-family: "TT Norms Pro",Helvetica,Arial,sans-serif;
-    letter-spacing: 1.4px;
+.p_tag_main {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #3f4c5a;
+  font-family: "TT Norms Pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.4px;
+}
+.flex_box {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1028px) and (min-width: 768px) {
+  .flex_box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .flex_box {
+    display: flex;
+    flex-direction: column;
+  }
 }

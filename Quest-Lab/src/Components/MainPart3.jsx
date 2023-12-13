@@ -3,6 +3,7 @@ import { Box, Image, Flex } from "@chakra-ui/react";
 import tick from "../Images/tick.png";
 import front from "../Images/grid.png";
 import grid1 from "../Images/grid1.png";
+import '../Style/MainPart3.css'
 const MainPart3 = () => {
   return (
     <div>
@@ -17,12 +18,10 @@ const MainPart3 = () => {
       </Box>
       <br />
       <br />
-      <Flex
-        justifyContent={"space-around"}
-        style={{
-          width: "80%",
-          margin: "auto",
-        }}
+      <br />
+      <Box
+        
+        className='flex_box_main_right'
       >
         <Box
           style={{
@@ -59,7 +58,7 @@ const MainPart3 = () => {
               marginLeft: "10px",
             }}
           >
-            Dramatically reduce your support volume
+            Solve issues anywhere, any time, in any language (coming soon)
           </span>
         </Box>
         <Box
@@ -78,10 +77,10 @@ const MainPart3 = () => {
               marginLeft: "10px",
             }}
           >
-            Dramatically reduce your support volume
+            Provides safe, trustworthy answers
           </span>
         </Box>
-      </Flex>
+      </Box>
       <br />
       <br />
       <Image src={front} />

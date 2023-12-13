@@ -1,6 +1,29 @@
 .h1_tag_footer {
   font-family: "VC Honey", Helvetica, Arial, sans-serif;
+  font-size: 76px;
+  line-height: 150%;
+  font-weight: 400;
 }
-.ul_li{
+.footer_div_part{
+  display: flex;
+  background-color: #fff;
+}
+.ul_li {
+  font-size: 22px;
+}
+@media screen and (max-width: 1028px) and (min-width: 768px) {
+  .h1_tag_footer {
+    font-size: 26px;
+  }
+  .footer_div_part{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .h1_tag_footer {
     font-size: 22px;
+  }
+  .footer_div_part{
+    flex-direction: column;
+  }
 }

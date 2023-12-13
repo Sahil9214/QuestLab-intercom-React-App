@@ -58,7 +58,7 @@ const MainPart5 = () => {
         <Image width={"90%"} margin={"auto"} src={grid5} />
         <br />
         <br />
-        <Flex width={"80%"} justifyContent={"space-around"} margin={"auto"}>
+        <Box  className='footer_part_up'>
           <Box display={"flex"} justifyContent={"space-around"}>
             <Image
               src={
@@ -97,7 +97,7 @@ const MainPart5 = () => {
               Maximize team performance with actionable insights
             </p>
           </Box>
-        </Flex>
+        </Box>
         <Box width={'80%'} margin={'auto'}>
           <section
             data-testid="shape-section"

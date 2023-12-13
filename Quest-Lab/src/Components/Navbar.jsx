@@ -23,7 +23,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import down from "../Images/downarrow.png";
 import "../Style/Navbar.css";
 export default function Navbar() {
@@ -48,9 +48,9 @@ export default function Navbar() {
   }, [isSticky]);
 
   return (
-    <div style={{zIndex:'1',position:"sticky",top:'0px'}}>
+    <div style={{ zIndex: "1", position: "sticky", top: "0px" }}>
       <Box backgroundColor={"rgb(6, 30, 55)"} className="navbar_Styles">
-        <Box margin={"auto"}>
+        <Box margin={"auto"} className='navbar_box_low'>
           <Flex
             color={useColorModeValue("gray.600", "white")}
             minH={"60px"}
@@ -147,7 +147,7 @@ export default function Navbar() {
               </Flex>
             </Flex>
 
-            <Stack
+            <Stack className='stack_flex'
               flex={{ base: 1, md: 0 }}
               justify={"flex-end"}
               direction={"row"}
@@ -257,6 +257,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       role={"group"}
       display={"block"}
       p={2}
+      backgroundColor={"#041527"}
       rounded={"md"}
       _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
     >
@@ -264,13 +265,25 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
         <Box>
           <Text
             fontSize={"1.125rem"}
-            fontWeight={"600"}
             transition={"all .3s ease"}
+            color={"#fff"}
+            fontWeight={"700"}
+            textAlign={"center"}
             _groupHover={{ color: "pink.400" }}
+            alignItems={"center"}
           >
             {label}
           </Text>
-          <Text fontSize={"sm"}>{subLabel}</Text>
+          <Text
+            alignItems={"center"}
+            color={"#fff"}
+            _groupHover={{ color: "pink.400" }}
+            textAlign={"center"}
+            fontWeight={"700"}
+            fontSize={"sm"}
+          >
+            {subLabel}
+          </Text>
         </Box>
         <Flex
           transition={"all .3s ease"}
@@ -357,12 +370,23 @@ const NAV_ITEMS = [
     label: "Products",
     children: [
       {
-        label: "Explore Design Work",
-        subLabel: "Trending Design to inspire you",
+        label: "AI Chatbot",
+        subLabel:
+          "Boost productive with a workspace but connect your index,ticket and help center",
         href: "#",
       },
       {
-        label: "New & Noteworthy",
+        label: "Help Desk",
+        subLabel: "Up-and-coming Designers",
+        href: "#",
+      },
+      {
+        label: "Productive Support",
+        subLabel: "Up-and-coming Designers",
+        href: "#",
+      },
+      {
+        label: "Platform",
         subLabel: "Up-and-coming Designers",
         href: "#",
       },
@@ -372,12 +396,22 @@ const NAV_ITEMS = [
     label: "Resources",
     children: [
       {
-        label: "Job Board",
+        label: "Blog",
         subLabel: "Find your dream design job",
         href: "#",
       },
       {
-        label: "Freelance Projects",
+        label: "Help Center",
+        subLabel: "An exclusive list for contract work",
+        href: "#",
+      },
+      {
+        label: "Resource Library",
+        subLabel: "An exclusive list for contract work",
+        href: "#",
+      },
+      {
+        label: "Developer Hub",
         subLabel: "An exclusive list for contract work",
         href: "#",
       },

@@ -28,13 +28,14 @@ const MainPart2 = () => {
               display: "block",
             }}
           >
-            <h1
+            <h1 className='h1_pelle_block_tag'
               style={{
                 color: "#041527",
                 fontSize: "24px",
                 lineHeight: "114%",
                 textAlign: "left",
                 fontWeight: "700",
+                
               }}
             >
               Pelle Blarke
