@@ -16,7 +16,7 @@
     box-sizing: border-box;
     transition: opacity 150ms ease 0s;
     background-color:rgb(110, 110, 229);
-    padding:12px 0px
+    padding:2px 0px
 }
 .input:hover{
     background-color: aqua;
@@ -27,4 +27,7 @@
     margin-bottom: 4px;
     word-break: break-word;
     color: rgb(26, 26, 26);
+}
+.comment_box:hover{
+color: blue;
 }

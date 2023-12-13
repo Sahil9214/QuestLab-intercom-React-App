@@ -19,19 +19,18 @@ const Message = () => {
       console.log("err", err);
     }
   };
+  const getData = async () => {
+    setLoading(true);
+    try {
+      let res = await axios(`https://zany-jade-seal-wrap.cyclic.app/message`);
+      setLoading(false);
 
+      setData(res.data);
+    } catch (err) {
+      console.log("err", err);
+    }
+  };
   useEffect(() => {
-    const getData = async () => {
-      setLoading(true);
-      try {
-        let res = await axios(`https://zany-jade-seal-wrap.cyclic.app/message`);
-        setLoading(false);
-
-        setData(res.data);
-      } catch (err) {
-        console.log("err", err);
-      }
-    };
     getData();
   }, []);
   console.log("data", data);
@@ -44,22 +43,22 @@ const Message = () => {
         <br />
         <br />
       </Box>
-      <Box>
-        {loading && data.length > 0 ? (
-          data?.map((el) => {
-            return (
+      <br/>
+      <Box width={'80%'} margin={'auto'}>
+        {
+          data?.length>0 &&data?.map((el)=>{
+            return(
               <div key={el.id}>
-                <Text>{el.msg}</Text>
-                <br />
-                <Divider />
+                <h2 style={{fontSize:"20px",fontWeight:"600"}}>{el.msg}</h2>
+                <br/>
+                <Divider/>
               </div>
-            );
+            )
           })
-        ) : (
-          <h1>There is no Message</h1>
-        )}
+        }
       </Box>
-      {/* <Box style={{ display: "flex", justifyContent: "center" }}>
+      <br/>
+      <Box style={{ display: "flex", justifyContent: "center" }}>
         <Input
           style={{ padding: "12px 0px" }}
           onChange={(e) => setMsg(e.target.value)}
@@ -67,7 +66,7 @@ const Message = () => {
         <Button onClick={handleMessage}>
           <Image src={send} width="30px" />
         </Button>
-      </Box> */}
+      </Box>
     </div>
   );
 };

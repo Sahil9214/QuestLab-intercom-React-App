@@ -1,7 +1,8 @@
 import React from "react";
 import { Box, Image, Flex, Text, Input,Divider } from "@chakra-ui/react";
 import "../../Style/help.css";
-import search from '../../Images/search.png'
+import search from '../../Images/search.png';
+import peace from '../../Images/peace.png'
 const Help = () => {
   return (
     <div>
@@ -9,45 +10,45 @@ const Help = () => {
         <Text className="help_text" textAlign={"center"}>
           Help 
         </Text>
-        <br />
-        <br />
-        <Box padding={"12px"} margin={"auto"} width={"80%"} display={'flex'}>
-          <Input className="input" />
+       
+        
+        <Box padding={"12px"} margin={"auto"} width={"90%"} display={'flex'}>
+          <Input className="input" style={{backgroundColor:"#fff"}} />
           <Image src={search} width={'30px'}/>
         </Box>
       </Box>
       <br/>
       <br/>
-      <Box style={{padding:"12px 0px"}}>
+      <Box style={{padding:"12px 0px"}} className='comment_box'>
         <h2>18 collection</h2>
         <Divider/>
       </Box>
-      <Box style={{padding:"17px 0px"}}>
-        <h2>Interview Overiew</h2>
-        <br/>
+      <Box style={{padding:"17px 0px"}}  className='comment_box'>
+        <h2 style={{fontSize:"20px",fontWeight:"600"}}>Interview Overiew</h2>
+       
         <p className='p_help_tag'>See your coustomer service working</p>
         <Divider/>
       </Box>
-      <Box style={{padding:"17px 0px"}}>
-        <h2>help Desk</h2>
-        <br/>
+      <Box style={{padding:"17px 0px"}}  className='comment_box'>
+        <h2 style={{fontSize:"20px",fontWeight:"600"}}>help Desk</h2>
+       
         <p className='p_help_tag'>See your coustomer service working</p>
         <Divider/>
       </Box>
-      <Box style={{padding:"17px 0px"}}>
-        <h2>Getting Started</h2>
-        <br/>
+      <Box style={{padding:"17px 0px"}}  className='comment_box'>
+        <h2 style={{fontSize:"20px",fontWeight:"600"}}>Getting Started</h2>
+       
         <p className='p_help_tag'>See your coustomer service working</p>
         <Divider/>
       </Box>
-      <Box style={{padding:"17px 0px"}}>
-        <h2>AI chatbot</h2>
-        <br/>
+      <Box style={{padding:"17px 0px"}}  className='comment_box'>
+        <h2 style={{fontSize:"20px",fontWeight:"600"}}>AI chatbot</h2>
+       
         <p className='p_help_tag'>See your coustomer service working</p>
         <Divider/>
       </Box>
-      <Box style={{padding:"12px 0px"}}>
-        <h2>Productive Support</h2>
+      <Box style={{padding:"12px 0px"}}  className='comment_box'>
+        <h2 style={{fontSize:"20px",fontWeight:"600"}}>Productive Support</h2>
         <Divider/>
         <p className='p_help_tag'>See your coustomer service working</p>
         <Divider/>

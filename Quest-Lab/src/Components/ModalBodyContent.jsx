@@ -27,42 +27,12 @@ import Message from "./Body/Message";
 import Help from "./Body/Help";
 import News from "./Body/News";
 import home1 from "../Images/home.png";
-import news12 from '../Images/news3.png'
+import news12 from '../Images/news.png'
 import message12 from '../Images/news2.png'
 import help123 from '../Images/help.png'
+import peace from '../Images/peace.png'
 const ModalBodyContent = () => {
-  const [text, setText] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  const [val, setVal] = useState("");
 
-  const getData = async () => {
-    setLoading(true);
-    try {
-      let res = await axios.get(`https://aware-lion-miniskirt.cyclic.app`);
-      console.log("res", res.data);
-      console.log("datd", res.data);
-      setText(res.data);
-
-      setLoading(true);
-    } catch (err) {
-      console.log("err", err);
-      setError(true);
-    }
-  };
-
-  const handleAdd = async () => {
-    try {
-      await axios.post(`https://aware-lion-miniskirt.cyclic.app/add`, { val });
-    } catch (err) {
-      console.log("err", err);
-    }
-    setVal("");
-  };
-
-  useEffect(() => {
-    getData();
-  }, []);
   return (
     <div>
       <Tabs>
@@ -83,7 +53,7 @@ const ModalBodyContent = () => {
             <Text>Message</Text>
           </Tab>
           <Tab>
-            <Image src={help123} width={"30px"} />
+            <Image src={peace} width={"30px"} />
             <br />
             <Text>Help</Text>
           </Tab>
