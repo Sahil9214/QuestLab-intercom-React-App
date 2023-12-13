@@ -59,7 +59,7 @@ const Message = () => {
           <h1>There is no Message</h1>
         )}
       </Box>
-      <Box style={{ display: "flex", justifyContent: "center" }}>
+      {/* <Box style={{ display: "flex", justifyContent: "center" }}>
         <Input
           style={{ padding: "12px 0px" }}
           onChange={(e) => setMsg(e.target.value)}
@@ -67,7 +67,7 @@ const Message = () => {
         <Button onClick={handleMessage}>
           <Image src={send} width="30px" />
         </Button>
-      </Box>
+      </Box> */}
     </div>
   );
 };
