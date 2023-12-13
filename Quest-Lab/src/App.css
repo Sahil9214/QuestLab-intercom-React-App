@@ -37,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+.modal_body{
+  background-image: linear-gradient(
+        117.67deg,
+        rgb(27, 59, 102),
+        rgb(0, 87, 255),
+        rgb(202, 244, 247)
+      );
+}

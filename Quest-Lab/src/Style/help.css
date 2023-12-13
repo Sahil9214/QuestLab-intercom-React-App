@@ -1,0 +1,30 @@
+.help_text{
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 1.4px;
+}
+.input{
+    border-radius: 12px;
+    border: 5px solid #fff;
+}
+.help_box{
+   
+    inset: 0px;
+    box-sizing: border-box;
+    transition: opacity 150ms ease 0s;
+    background-color:rgb(110, 110, 229);
+    padding:12px 0px
+}
+.input:hover{
+    background-color: aqua;
+}
+.p_help_tag{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 4px;
+    word-break: break-word;
+    color: rgb(26, 26, 26);
+}

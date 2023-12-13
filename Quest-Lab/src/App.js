@@ -42,10 +42,9 @@ function BasicUsage() {
         <Image src={comment} width={"80px"} />
       </Button>
 
-      <Modal isOpen={isOpen} onClose={onClose}>
+      <Modal isOpen={isOpen} onClose={onClose} className='modal_body'>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Message Added</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <ModalBodyContent />

@@ -3,7 +3,7 @@ import { Box, Image, Flex } from "@chakra-ui/react";
 import tick from "../Images/tick.png";
 import front from "../Images/grid.png";
 import grid1 from "../Images/grid1.png";
-import '../Style/MainPart3.css'
+import "../Style/MainPart3.css";
 const MainPart3 = () => {
   return (
     <div>
@@ -19,10 +19,7 @@ const MainPart3 = () => {
       <br />
       <br />
       <br />
-      <Box
-        
-        className='flex_box_main_right'
-      >
+      <Box className="flex_box_main_right">
         <Box
           style={{
             display: "flex",
